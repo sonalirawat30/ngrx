@@ -1,0 +1,18 @@
+<div class="container">
+    <table>
+        <tr>
+            <th width=50>Id</th>
+            <th width=50>PostId</th>
+            <th width=300>Name</th>
+            <th width=200>Email</th>
+            <th>Body</th>
+        </tr>
+        <tr *ngFor="let user of users">
+        <td >{{user.id}}</td>
+        <td >{{user.postId}}</td>
+        <td>{{user.name}}</td>
+        <td>{{user.email}}</td>
+        <td>{{user.body}}</td>
+        </tr>
+    </table>
+</div>
